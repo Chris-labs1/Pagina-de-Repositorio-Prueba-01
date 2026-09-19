@@ -3,170 +3,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberFix | Diagnóstico y Reparación de Computadoras</title>
+    <title>TechFix Pro | Servicio Técnico Especializado</title>
+    <!-- Iconos FontAwesome para los dispositivos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+    
     <header>
-        <div class="brand">
-            <span class="symbol">>_</span> CyberFix ES
+        <div class="logo">
+            <i class="fa-solid fa-microchip"></i> <span>FixTec</span> PE
         </div>
         <nav>
             <ul>
+                <li><a href="#equipos">Equipos</a></li>
                 <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#diagnostico">Protocolo</a></li>
-                <li><a href="#precios">Tarifas</a></li>
-                <li><a href="#contacto">Soporte</a></li>
+                <li><a href="#nosotros">Por qué elegirnos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <span class="badge">Soporte Técnico Especializado</span>
-            <h1>Reparación, Mantenimiento y Optimización de Equipos</h1>
-            <p>Soluciones a nivel de hardware y software para laptops, PC de escritorio y estaciones de trabajo. Diagnóstico certero basado en pruebas de estrés y revisión de componentes.</p>
-            <div class="actions">
-                <a href="#contacto" class="btn btn-primary">Solicitar Diagnóstico</a>
-                <a href="#servicios" class="btn btn-secondary">Ver Servicios</a>
+    
+    <section class="hero-large">
+        <div class="hero-overlay">
+            <div class="hero-text animate-fade-in">
+                <span class="tag">Soporte Técnico Especializado</span>
+                <h1>Soluciones Integrales para tu Infraestructura Digital</h1>
+                <p>Reparación, repotenciado y mantenimiento a domicilio con garantía.</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-blue">Solicitar Diagnóstico</a>
+                    <a href="#servicios" class="btn btn-outline">Ver Servicios</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="servicios" class="container">
-        <h2>Servicios Técnicos</h2>
-        <p class="subtitle">Especialidades de reparación y mantenimiento informático</p>
+    
+    <section id="equipos" class="devices-bar">
+        <div class="device-item">
+            <i class="fa-solid fa-laptop"></i>
+            <span>Laptops</span>
+        </div>
+        <div class="device-item">
+            <i class="fa-solid fa-desktop"></i>
+            <span>PC Gamer / Escritorio</span>
+        </div>
+        <div class="device-item">
+            <i class="fa-solid fa-print"></i>
+            <span>Impresoras</span>
+        </div>
+        <div class="device-item">
+            <i class="fa-solid fa-wifi"></i>
+            <span>Redes & Wi-Fi</span>
+        </div>
+        <div class="device-item">
+            <i class="fa-solid fa-video"></i>
+            <span>Cámaras de Seguridad</span>
+        </div>
+    </section>
+
+    
+    <section id="servicios" class="services-wrapper">
+        <h2 class="section-title">Servicios Destacados</h2>
+        <p class="section-sub">Atención personalizada con los más altos estándares de calidad</p>
+
+        <div class="services-layout">
+            <!-- Columna Izquierda -->
+            <div class="service-col">
+                <div class="service-card animate-hover">
+                    <div class="service-info">
+                        <h3>Formateo e Instalación</h3>
+                        <p>Respaldo seguro de datos, S.O. optimizado y licencias oficiales para laptops y PC.</p>
+                    </div>
+                    <div class="service-icon"><i class="fa-solid fa-sliders"></i></div>
+                </div>
+
+                <div class="service-card animate-hover">
+                    <div class="service-info">
+                        <h3>Diagnóstico Hardware</h3>
+                        <p>Identificación de fallas complejas en placa madre, discos SSD e impresoras.</p>
+                    </div>
+                    <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+                </div>
+
+                <div class="service-card animate-hover">
+                    <div class="service-info">
+                        <h3>Mantenimiento Preventivo</h3>
+                        <p>Limpieza ultrasónica, cambio de pasta térmica de alto rendimiento y disipación.</p>
+                    </div>
+                    <div class="service-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                </div>
+            </div>
+
+            
+            <div class="central-image-container">
+                <img src="img/desarrollo.png" alt="Soporte Informático" class="floating-img">
+            </div>
+
+            
+            <div class="service-col">
+                <div class="service-card animate-hover">
+                    <div class="service-icon"><i class="fa-solid fa-gauge-high"></i></div>
+                    <div class="service-info">
+                        <h3>Repotenciación de Equipos</h3>
+                        <p>Actualización a SSD NVMe y ampliación RAM para multiplicar la velocidad de tu equipo.</p>
+                    </div>
+                </div>
+
+                <div class="service-card animate-hover">
+                    <div class="service-icon"><i class="fa-solid fa-headset"></i></div>
+                    <div class="service-info">
+                        <h3>Soporte Remoto Inmediato</h3>
+                        <p>Solución de problemas de software, virus y configuración a distancia en minutos.</p>
+                    </div>
+                </div>
+
+                <div class="service-card animate-hover">
+                    <div class="service-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                    <div class="service-info">
+                        <h3>Atención a Domicilio</h3>
+                        <p>Técnicos certificados directamente en tu hogar o empresa con todas las herramientas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="more-info-wrapper">
+            <details class="custom-details">
+                <summary class="btn-more">
+                    <span>Ver información técnica detallada</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </summary>
+                <div class="details-content">
+                    <div class="details-grid">
+                        <div>
+                            <h4><i class="fa-solid fa-check"></i> Garantía Incluida</h4>
+                            <p>Todos nuestros repuestos y reparaciones cuentan con hasta 12 meses de garantía directa.</p>
+                        </div>
+                        <div>
+                            <h4><i class="fa-solid fa-check"></i> Pruebas de Estrés</h4>
+                            <p>Sometemos las GPU y CPU a pruebas sintéticas (FurMark/MemTest) antes de cada entrega.</p>
+                        </div>
+                        <div>
+                            <h4><i class="fa-solid fa-check"></i> Cobertura Empresarial</h4>
+                            <p>Planes de mantenimiento mensual para oficinas, colegios y locales comerciales.</p>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </div>
+    </section>
+
+
+    <section id="nosotros" class="info-intercalada">
         
-        <div class="grid-services">
-            <article class="service-box">
-                <div class="icon-box">
-                    <img src="img/diseno.png" alt="Hardware">
-                </div>
-                <h3>Reparación de Hardware</h3>
-                <ul>
-                    <li>Cambio de pantallas, teclados y baterías en laptops.</li>
-                    <li>Reemplazo de módulos RAM y discos de almacenamiento (SSD/NVMe).</li>
-                    <li>Reparación de puertos de carga (Jack DC) y soldadura SMD.</li>
-                    <li>Revisión de fuentes de poder y tarjetas madres.</li>
+        
+        <div class="row-intercalado">
+            <div class="col-imagen">
+                <img src="img/diseno.png" alt="¿Por qué elegirnos?">
+            </div>
+            <div class="col-texto">
+                <h2>¿Por qué elegirnos?</h2>
+                <p class="desc">Beneficios que marcan la diferencia: soporte rápido, soluciones a medida, experiencia avanzada y precios justos.</p>
+                <ul class="check-list">
+                    <li><i class="fa-solid fa-check"></i> Soporte personalizado y rápido</li>
+                    <li><i class="fa-solid fa-check"></i> Soluciones para empresas y hogares</li>
+                    <li><i class="fa-solid fa-check"></i> Experiencia en tecnología avanzada</li>
+                    <li><i class="fa-solid fa-check"></i> Precios competitivos y flexibles</li>
+                    <li><i class="fa-solid fa-check"></i> Garantía en servicios y productos</li>
                 </ul>
-            </article>
-
-            <article class="service-box">
-                <div class="icon-box">
-                    <img src="img/desarrollo.png" alt="Mantenimiento">
-                </div>
-                <h3>Mantenimiento Preventivo</h3>
-                <ul>
-                    <li>Limpieza ultrasónica y remoción de polvo interno.</li>
-                    <li>Cambio de pasta térmica de alto rendimiento (CPU/GPU).</li>
-                    <li>Calibración de flujo de aire y reemplazo de ventiladores.</li>
-                    <li>Optimización de temperaturas de trabajo.</li>
-                </ul>
-            </article>
-
-            <article class="service-box">
-                <div class="icon-box">
-                    <img src="img/git.png" alt="Software">
-                </div>
-                <h3>Soporte Lógico y Software</h3>
-                <ul>
-                    <li>Formateo con respaldo de información seguro.</li>
-                    <li>Eliminación de malware, spyware y ransomware.</li>
-                    <li>Instalación limpia de Windows / Linux con controladores oficiales.</li>
-                    <li>Recuperación de datos borrados en unidades dañadas.</li>
-                </ul>
-            </article>
+                <a href="#contacto" class="btn btn-blue"><i class="fa-solid fa-phone"></i> Separa tu atención técnica gratuita</a>
+            </div>
         </div>
-    </section>
 
-    <section id="diagnostico" class="protocol-section">
-        <div class="container">
-            <h2>Nuestro Protocolo de Revisión</h2>
-            <div class="timeline">
-                <div class="step">
-                    <span class="step-num">01</span>
-                    <h4>Recepción y Registro</h4>
-                    <p>Inspección visual inicial, registro del número de serie y levantamiento de la falla reportada por el cliente.</p>
-                </div>
-                <div class="step">
-                    <span class="step-num">02</span>
-                    <h4>Pruebas de Estrés</h4>
-                    <p>Ejecución de software de diagnóstico (MemTest86, FurMark, CrystalDiskInfo) para ubicar errores de lectura o temperatura.</p>
-                </div>
-                <div class="step">
-                    <span class="step-num">03</span>
-                    <h4>Presupuesto Transparente</h4>
-                    <p>Notificación detallada del costo de repuestos y mano de obra antes de realizar cualquier intervención física.</p>
+        
+        <div class="row-intercalado reverse">
+            <div class="col-imagen">
+                <img src="img/git.png" alt="Atención en Lima">
+            </div>
+            <div class="col-texto">
+                <span class="sub-caption">SOPORTE TÉCNICO PARA HOGAR O EMPRESA</span>
+                <h2>Atención en toda Lima Metropolitana</h2>
+                <p class="desc">Atendemos en Miraflores, San Borja, Surco, San Isidro, Jesús María, San Miguel, La Molina y más distritos con atención rápida en taller o a domicilio.</p>
+                <div class="btn-group">
+                    <a href="#contacto" class="btn btn-blue"><i class="fa-solid fa-phone"></i> Solicitar</a>
+                    <a href="#servicios" class="btn btn-secondary-outline">Más Información <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
         </div>
+
     </section>
 
-    <section id="precios" class="container">
-        <h2>Planes y Tarifas Estimadas</h2>
-        <table class="tech-table">
-            <thead>
-                <tr>
-                    <th>Servicio</th>
-                    <th>Detalle técnico</th>
-                    <th>Tiempo estimado</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Mantenimiento Básico</strong></td>
-                    <td>Limpieza de polvo, lubricación de cooler y cambio de pasta térmica base.</td>
-                    <td>24 horas</td>
-                </tr>
-                <tr>
-                    <td><strong>Optimización SSD</strong></td>
-                    <td>Instalación de SSD, clonación o S.O. limpio + migración de archivos.</td>
-                    <td>24 - 48 horas</td>
-                </tr>
-                <tr>
-                    <td><strong>Revisión Electrónica</strong></td>
-                    <td>Diagnóstico de placa base por cortos o falla de encendido.</td>
-                    <td>48 - 72 horas</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="contact-block">
+        <div class="contact-container">
+            <h2>Solicita tu Atención Técnica</h2>
+            <p>Escríbenos y un especialista evaluará tu caso de inmediato.</p>
 
-    <section id="contacto" class="contact-section">
-        <div class="container">
-            <h2>Ingreso de Orden de Soporte</h2>
-            <p>Completa el formulario si deseas agendar una revisión en nuestro taller o realizar una consulta.</p>
-
-            <form class="tech-form">
-                <div class="form-group">
-                    <label>Nombre del Cliente:</label>
-                    <input type="text" placeholder="Ej. Carlos Mendoza" required>
+            <form class="clean-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Nombre completo" required>
+                    <input type="tel" placeholder="Teléfono / WhatsApp" required>
                 </div>
-                <div class="form-group">
-                    <label>Correo de Contacto:</label>
-                    <input type="email" placeholder="cliente@correo.com" required>
-                </div>
-                <div class="form-group">
-                    <label>Tipo de Equipo:</label>
+                <div class="form-row">
+                    <input type="email" placeholder="Correo electrónico" required>
                     <select required>
-                        <option value="">-- Seleccionar --</option>
-                        <option value="laptop">Laptop / Notebook</option>
-                        <option value="desktop">PC de Escritorio / Gaming</option>
-                        <option value="allinone">Otras especificaciones...</option>
+                        <option value="">-- Selecciona el tipo de equipo --</option>
+                        <option value="laptop">Laptop / Mac</option>
+                        <option value="pc">PC de Escritorio / Gamer</option>
+                        <option value="impresora">Impresora / Multifuncional</option>
+                        <option value="redes">Redes / Cámaras</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <label>Descripción de la avería o consulta:</label>
-                    <textarea rows="4" placeholder="" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary btn-block">Enviar Solicitud</button>
+                <textarea rows="4" placeholder="" required></textarea>
+                <button type="submit" class="btn btn-blue btn-full">Enviar Consulta</button>
             </form>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 CyberFix - Página de Espinoza Solier Christopher.</p>
+        <p>&copy; 2026 FixTec PE. Página hecha por Espinoza Solier Christopher.</p>
     </footer>
 
 </body>
