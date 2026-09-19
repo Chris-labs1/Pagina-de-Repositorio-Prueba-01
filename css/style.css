@@ -1,4 +1,4 @@
-/* Reset y Paleta Corporativa */
+
 :root {
     --primary: #2563eb;
     --primary-dark: #1d4ed8;
@@ -24,7 +24,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
+
 header {
     background: var(--bg-white);
     display: flex;
@@ -277,7 +277,7 @@ nav a:hover {
     50% { transform: translateY(-10px); }
 }
 
-/* Bloque Desplegable "Ver más" */
+
 .more-info-wrapper {
     margin-top: 3rem;
     text-align: center;
@@ -324,7 +324,7 @@ nav a:hover {
     color: var(--text-muted);
 }
 
-/* Sección Por qué elegirnos */
+
 .why-us {
     background: var(--bg-white);
     padding: 5rem 5%;
@@ -362,7 +362,7 @@ nav a:hover {
     color: var(--primary);
 }
 
-/* Contacto */
+
 .contact-block {
     padding: 5rem 5%;
     background: var(--bg-light);
@@ -403,7 +403,7 @@ nav a:hover {
     width: 100%;
 }
 
-/* Footer */
+
 footer {
     background: var(--text-dark);
     color: var(--text-muted);
@@ -412,7 +412,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Media Queries (Responsive) */
+
 @media (max-width: 900px) {
     .services-layout {
         grid-template-columns: 1fr;
@@ -444,7 +444,7 @@ footer {
     }
 }
 
-/* Secciones Intercaladas en Zig-Zag */
+
 .info-intercalada {
     padding: 4rem 8%;
     background-color: var(--bg-white);
@@ -460,7 +460,7 @@ footer {
     gap: 4rem;
 }
 
-/* Invertir dirección para el efecto alternado */
+
 .row-intercalado.reverse {
     flex-direction: row-reverse;
 }
@@ -504,7 +504,7 @@ footer {
     margin-bottom: 1.5rem;
 }
 
-/* Lista de Verificación */
+
 .check-list {
     list-style: none;
     margin-bottom: 2rem;
@@ -528,7 +528,7 @@ footer {
     font-size: 0.8rem;
 }
 
-/* Grupo de Botones */
+
 .btn-group {
     display: flex;
     align-items: center;
@@ -550,7 +550,7 @@ footer {
     color: var(--primary-dark);
 }
 
-/* Adaptación para pantallas móviles */
+
 @media (max-width: 850px) {
     .row-intercalado, 
     .row-intercalado.reverse {
